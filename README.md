@@ -7,7 +7,6 @@ During this lab I:
 
 step one was to configure the Virtual Machine (VM1)
 accessed VM1 via SSH (IP is found in Azure portal at the Linux VM details) with command:    
-
 "ssh <username>@<public-ip-of-VM1>"
 
 For partitioning the Data Disk, I list first the attached dissks using command:
@@ -21,10 +20,15 @@ Here I will see the needed disk listed as: /dev/sdb. Will next create a partitio
 In terminal I follow the prompts (note there is no hint that they are interactive, the prompts are static) so we have to:
 
 Press n for a new partition.
+
 Press p for a primary partition.
+
 Press 1 to select partition number 1.
+
 Press Enter to accept the default first sector.
+
 Press Enter again to accept the default last sector.
+
 Press w to write the changes.
 
 Next I format the partition as requested in task using command:
@@ -44,8 +48,8 @@ using command:
 "sudo nano /etc/fstab"
 
 NOTE: in this MS applied skil lab the usual keyboard shortcuts for saving&exiting the nano editor do not work as usual. 
-I needed to try multiple times as it froze and lost all my work. My solution was to kill the nano editor from a second terminal while my  main one is still work in progress.
-In other words, I advise for this task to use tow terminals to avoid getting stuck in the nano editor and loosing lab time.
+I needed to try multiple times as it froze and lost all my work. My solution was to kill the nano editor from a second terminal while my main one is still work in progress.
+In other words, I advise for this task to use two separate terminals to avoid getting stuck in the nano editor and loosing lab time.
 
 Next in the editor I added the following line at the bottom of the file to mount the disk automatically:
 

@@ -6,7 +6,7 @@ During this lab I:
 - Post-deployment scripts that I used for used for partitioning the disk, installing Nginx
 
 step one was to configure the Virtual Machine (VM1)
-accessed VM1 via SSH (IP is found in Azure portal at the Linux VM details) using command:    
+accessed VM1 via SSH (IP is found in Azure portal at the Linux VM details) with command:    
 
 "ssh <username>@<public-ip-of-VM1>"
 

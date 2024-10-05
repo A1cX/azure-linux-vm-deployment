@@ -1,8 +1,9 @@
 # azure-linux-vm-deployment
-useful bash commands used in Microsoft Applied skills lab: "Deploy a linux machine in Azure"
-deployed the Linux VM via Azure portal with required configuration
-used Azure CLI scripts to automate the deployment of the Linux VM
-Post-deployment scripts that I used for used for partitioning the disk, installing Nginx
+This entry contains a list of useful bash commands I used in Microsoft Applied skills lab: "Deploy a linux machine in Azure"
+During this lab I:
+- deployed the Linux VM via Azure portal with required configuration
+- used Azure CLI scripts to automate the deployment of the Linux VM
+- Post-deployment scripts that I used for used for partitioning the disk, installing Nginx
 
 step one was to configure the Virtual Machine (VM1)
 accessed VM1 via SSH (IP is found in Azure portal at the Linux VM details) using command:    
@@ -81,6 +82,14 @@ I checked that Nginx is running by visiting the public IP address of my Azure VM
 In browser I saw the default Nginx landing page.
 
 Done.
+
+NOTE: this is just one of the several tasks required to pass this MS applied skill certification.
+My lab was not fully complete on Microsoft applied learning becasue at the end of last task the AZ-copy is blocked and does not synch with the portal, 
+I am getting only 67 percent score and passing is 70 required. Is blocked at AZ-copy but will keep on trying it in hopes MS will not retire it soon.
+This lab is really good learning experience, despite the technical difficulties.
+
+Link to MS applied skill certification:
+https://learn.microsoft.com/en-us/credentials/applied-skills/deploy-and-administer-linux-virtual-machines-on-microsoft-azure/
 
 Task summary:
 provisioned a new Azure VM with Ubuntu 22.04 LTS

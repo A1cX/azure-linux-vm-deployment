@@ -3,7 +3,8 @@ This entry contains a list of useful bash commands I used in Microsoft Applied s
 During this lab I:
 - deployed the Linux VM via Azure portal with required configuration
 - used Azure CLI scripts to automate the deployment of the Linux VM
-- Post-deployment scripts that I used for used for partitioning the disk, installing Nginx
+- Post-deployment scripts used for partitioning the disk, installing Nginx
+- all commands are from Microsoft learning modules, as it's an open book lab
 
 step one was to configure the Virtual Machine (VM1)
 accessed VM1 via SSH (IP is found in Azure portal at the Linux VM details) with command:    
